@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Clothes",
+  "version": "1.0",
+  "action": {
+    "default_popup": "index.html",
+    "default_icon": "logo192.png"
+  },
+  "permissions": ["activeTab"],
+  "content_scripts": [{
+    "matches": ["http://*/*", "https://*/*"],
+    "js": ["contentScript.js"]
+  }]
+}
