@@ -3,12 +3,12 @@
   "name": "Clothes",
   "version": "1.0",
   "action": {
-    "default_popup": "index.html",
+    "default_popup": "popup.html",
     "default_icon": "logo192.png"
   },
-  "permissions": ["activeTab"],
-  "content_scripts": [{
-    "matches": ["http://*/*", "https://*/*"],
-    "js": ["contentScript.js"]
-  }]
+  "permissions": ["activeTab"]
+  // "content_scripts": [{
+  //   "matches": ["http://*/*", "https://*/*"],
+  //   "js": ["contentScript.js"]
+  // }]
 }

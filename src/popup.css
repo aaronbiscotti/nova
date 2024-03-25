@@ -1,0 +1,13 @@
+main {
+	width: 400px;
+	height: 100px;
+}
+
+.title {
+	margin-top: 15px;
+    font-size: medium;
+    font-weight: bold;
+    white-space: nowrap;
+    overflow: hidden;
+    text-align: center;
+}
